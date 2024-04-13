@@ -22,6 +22,10 @@ STORM can enhance the pre-writing stage, resulting in well-structured and compre
 # **Project Scope:**
 Due to time constraints, we implemented the method with Claude API in this notebook but didn't have time to implement a UI. We leverage the framework to write a test article on the following topic: **Building A Powerful LinkedIn Presence**. The resulted article can be viewed from the markdown files in this repo. 
 
+There are more things we can improve for this project such as using function calls to stablize the output for pipeline uses downstream, refining outputs, refining prompts, roles and agents architecture etc. 
+
+We also compared result between OpenAI and Claude. Overall, we like the Claude results better in this specific use case. 
+
 ![image](https://github.com/angelina-yang/Claude_API_Contest/assets/40750217/48b072ec-c566-4596-ae7b-ecb82d1e3793)
 
 
