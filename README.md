@@ -20,7 +20,7 @@ STORM is designed to assist in writing long-form articles by creating topic outl
 STORM can enhance the pre-writing stage, resulting in well-structured and comprehensive articles that rival those found on Wikipedia.
 
 # **Project Scope:**
-Due to time constraints, we implemented the method with Claude API in this notebook but didn't have time to implement a UI. We leverage the framework to write a test article on the following topic: *Building A Powerful LinkedIn Presence*. The resulted article can be viewed from the markdown files in this repo. 
+Due to time constraints, we implemented the method with Claude API in this notebook but didn't have time to implement a UI. We leverage the framework to write a test article on the following topic: **Building A Powerful LinkedIn Presence**. The resulted article can be viewed from the markdown files in this repo. 
 
 ![image](https://github.com/angelina-yang/Claude_API_Contest/assets/40750217/48b072ec-c566-4596-ae7b-ecb82d1e3793)
 
