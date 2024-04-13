@@ -5,7 +5,7 @@
 
 **YouTube Channel:** https://www.youtube.com/@TwoSetAI
 
-
+**Blogpost about this topic:** https://open.substack.com/pub/mlnotes/p/storm-ai-agents-for-long-form-writing?r=164sm1&utm_campaign=post&utm_medium=web
 
 # **Project Motivation:**
 
