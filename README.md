@@ -1,4 +1,4 @@
-# Claude API Test project - #**STORM: AI Agents for Long-Form Writing**
+# Claude API Contest Project - #STORM: AI Agents for Long-Form Writing
 
 
 **Project Author: TwoSetAI**
