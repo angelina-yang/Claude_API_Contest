@@ -2,8 +2,9 @@
 
 
 **Project Author: TwoSetAI**
-Angelina Yang: [Linkedin](https://www.linkedin.com/in/MeetAngelina/)
-Mehdi Allahyari: [Linkedin](https://www.linkedin.com/in/mehdiallahyari/) [Github](https://github.com/mallahyari)
+
+*Angelina Yang*: [Linkedin](https://www.linkedin.com/in/MeetAngelina/)
+*Mehdi Allahyari*: [Linkedin](https://www.linkedin.com/in/mehdiallahyari/) [Github](https://github.com/mallahyari)
 
 **YouTube Channel:** https://www.youtube.com/@TwoSetAI
 
