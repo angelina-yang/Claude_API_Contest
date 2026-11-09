@@ -1,0 +1,32 @@
+name: Semgrep SAST
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 12 * * 1'  # weekly scan Monday noon UTC
+
+permissions:
+  contents: read
+
+jobs:
+  semgrep:
+    name: Semgrep SAST
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Semgrep scan
+        continue-on-error: true  # warn-only for initial rollout; set to false later to block PRs with findings
+        run: |
+          semgrep scan \
+            --config=p/owasp-top-ten \
+            --config=p/javascript \
+            --config=p/typescript \
+            --config=p/python \
+            --config=p/secrets \
+            --metrics=off
